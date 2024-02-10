@@ -23,5 +23,8 @@ public class FibonnaciDP {
         return map.get(n);
 
     }
+
+    // Просторова складність: O(n)
+    // Часова складність: O(n)
 }
 

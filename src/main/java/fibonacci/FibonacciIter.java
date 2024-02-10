@@ -1,7 +1,7 @@
 package fibonacci;
 
 public class FibonacciIter {
-    public static long fibonacci( int n) {
+    public static long fibonacci(int n) {
 
         if (n <= 0) {
             return 0;
@@ -23,4 +23,7 @@ public class FibonacciIter {
 
         return result;
     }
+
+    // Просторова складність: O(1)
+    // Часова складність: O(n)
 }

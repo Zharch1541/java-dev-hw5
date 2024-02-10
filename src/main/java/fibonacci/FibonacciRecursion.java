@@ -12,4 +12,7 @@ public class FibonacciRecursion {
 
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
+
+    // Просторова складність: O(2^n)
+    // Часова складність: O(2^n)
 }
